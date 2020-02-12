@@ -7,9 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.1/assets/img/favicons/favicon.ico">
 
-    <title>Album example for Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/album/">
+    <title>Бакалея</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,37 +18,57 @@
 
   <body>
 
-    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="https://getbootstrap.com/docs/4.1/examples/jumbotron/#"></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="bakaleya.html">Бакалея <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="tehnika.html">Аренда спецтехники <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="servis.html">Ремонт и диагностика авто, шиномонтаж, токарь <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <footer class="text-muted">
+      <div id="contacts" class="container">
+        <h1 class="jumbotron-heading"><a href="bakaleya.html">Бакалея</a></h1><br>
+        <h1 class="jumbotron-heading"><a href="tehnika.html">Аренда спецтехники</a></h1><br>
+        <h1 class="jumbotron-heading"><a href="servis.html">Ремонт и диагностика авто, шиномонтаж, токарь</a></h1><br><br><br>
+        <h1 class="jumbotron-heading"><a href="#contacts">Контакты</a></h1>
+      </div>
+    </footer>
+
+    <!--<header>
       <div class="bg-dark collapse show" id="navbarHeader" style="">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Наши услуги</h4>
-              <ul class="list-unstyled">
-                <li><a href="https://getbootstrap.com/docs/4.1/examples/album/#" class="text-white">Бакалея</a></li>
-                <li><a href="https://getbootstrap.com/docs/4.1/examples/album/#" class="text-white">Аренда спецтехники</a></li>
-                <li><a href="https://getbootstrap.com/docs/4.1/examples/album/#" class="text-white">Ремонт и диагностика спецтехники, шиномонтаж</a></li>
-              </ul>
+              <br><br>
+              <h1 class="jumbotron-heading"><a href="bakaleya.html" class="text-white">Бакалея</a></h1><br>
+
+              <h1 class="jumbotron-heading"><a href="tehnika.html" class="text-white">Аренда спецтехники</a></h1><br>
+
+              <h1 class="jumbotron-heading"><a href="servis.html" class="text-white">Ремонт и диагностика спецтехники, шиномонтаж, токарь</a></h1><br><br><br>
+
+              <h1 class="jumbotron-heading"><a href="#contacts" class="text-white">Контакты</a></h1><br><br>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-          <a href="https://getbootstrap.com/docs/4.1/examples/album/#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>Album</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+    </header>-->
 
     <main role="main">
 
@@ -245,7 +263,8 @@
     </main>
 
     <footer class="text-muted">
-      <div class="container">
+      <div id="contacts" class="container">
+        <h1 class="jumbotron-heading">Контакты</a></h1><br><br>
         <p>Офис + склад - г.Оренбург,  ул.Кавказская 3а, склад №18</p>
         <p>Второй склад - г.Оренбург,  ул.Беляевская 6, склад №4</p><br>
         <p>Офис <a href="tel:+73532450770">+7 (3532) 450-770</a></p>
@@ -263,6 +282,4 @@
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script>
-  
-
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body></html>
+</body></html>
